@@ -33,4 +33,5 @@ if __name__ == "__main__":
     input_folder = args.input
     output_folder = args.output
 
-    input_files = glob.glob(os.path.join(input_folder, "*" + args.ext))
+    input_files = glob.glob(os.path.join(input_folder, "*" + args.extension))
+    segment_all_files()
