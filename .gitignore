@@ -3,3 +3,5 @@ venv
 segmentations
 *.out
 bash_scripts/
+output
+.DS_Store
